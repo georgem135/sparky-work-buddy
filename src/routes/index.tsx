@@ -190,7 +190,7 @@ function EmailSection() {
   };
 
   return (
-    <Card className="shadow-sm">
+    <Card className="border-white/60 bg-white/80 shadow-lg shadow-primary/5 backdrop-blur-sm">
       <SectionTitle icon={Mail} title="Email Generator" description="Draft polished emails in seconds." gradient="from-pink-500 to-rose-500" />
       <CardContent className="space-y-5">
         <div className="space-y-2">
@@ -296,7 +296,7 @@ Priorities:
   };
 
   return (
-    <Card className="shadow-sm">
+    <Card className="border-white/60 bg-white/80 shadow-lg shadow-primary/5 backdrop-blur-sm">
       <SectionTitle
         icon={ListChecks}
         title="Task Planner"
@@ -366,7 +366,7 @@ ${notes}`,
   };
 
   return (
-    <Card className="shadow-sm">
+    <Card className="border-white/60 bg-white/80 shadow-lg shadow-primary/5 backdrop-blur-sm">
       <SectionTitle
         icon={FileText}
         title="Notes Summarizer"
