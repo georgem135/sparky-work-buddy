@@ -44,14 +44,20 @@ This solution demonstrates how AI tools can be used effectively in real-world sc
 ### Sample Prompt
 
 ```text
-Write a professional email.
+Write a professional email requesting a salary increase.
 
-Topic: {Email Topic}
-Tone: {Tone}
-Audience: {Audience}
+Requirements:
+- Be respectful, confident, and professional
+- Express appreciation for the role and opportunities provided
+- Highlight strong performance, achievements, and contributions
+- Clearly request a discussion about a possible salary adjustment
+- Keep the email concise, polished, and well structured
+- Include a professional subject line
 
-Make it clear, polite, and well structured.
-Include a subject line.
+Topic: Asking for a raise based on performance and contributions
+Tone: Formal
+Audience: Manager
+
 ```
 
 ---
