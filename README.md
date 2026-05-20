@@ -198,7 +198,7 @@ This solution:
 
 ---
 
-# 🎥 Demo
+# 🎥Live Demo
 
 👉 Live Demo: https://sparky-work-buddy.lovable.app
 
