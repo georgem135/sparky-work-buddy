@@ -144,15 +144,19 @@ function SectionTitle({
   icon: Icon,
   title,
   description,
+  gradient,
 }: {
   icon: typeof Mail;
   title: string;
   description: string;
+  gradient: string;
 }) {
   return (
     <CardHeader className="pb-4">
       <div className="flex items-center gap-3">
-        <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+        <span
+          className={`flex h-11 w-11 items-center justify-center rounded-xl text-white shadow-md bg-gradient-to-br ${gradient}`}
+        >
           <Icon className="h-5 w-5" />
         </span>
         <CardTitle className="text-2xl font-bold tracking-tight">{title}</CardTitle>
