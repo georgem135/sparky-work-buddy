@@ -140,5 +140,10 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    background-image:
+      radial-gradient(at 12% 8%, oklch(0.92 0.12 320 / 0.55) 0px, transparent 55%),
+      radial-gradient(at 88% 12%, oklch(0.92 0.12 220 / 0.5) 0px, transparent 55%),
+      radial-gradient(at 60% 95%, oklch(0.92 0.13 70 / 0.45) 0px, transparent 55%);
+    background-attachment: fixed;
   }
 }
