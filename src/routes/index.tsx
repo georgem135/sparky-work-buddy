@@ -141,7 +141,40 @@ function TaskSection() {
     setOut("");
     try {
       const text = await runAI(
-        `Organize these tasks into a daily plan: ${tasks}\n- Prioritize tasks\n- Suggest time blocks\n- Make the plan realistic and easy to follow`,
+        `You are a friendly daily planning assistant for everyday users. Organize the following tasks into a simple, realistic daily plan.
+
+Tasks:
+${tasks}
+
+Rules:
+- Use simple, everyday language. No technical or coding jargon.
+- Keep it short and practical.
+- Group tasks into these sections (skip Evening if not needed): Morning, Midday, Afternoon, Evening.
+- Use bullet points (start each task line with "- ").
+- At the end, list priorities as High, Medium, Low.
+- Make the schedule realistic and easy to follow.
+
+Use exactly this output format (plain text, no markdown headers or bold):
+
+Daily Plan:
+
+Morning:
+- Task
+- Task
+
+Midday:
+- Task
+
+Afternoon:
+- Task
+
+Evening:
+- Task
+
+Priorities:
+- High:
+- Medium:
+- Low:`,
       );
       setOut(text);
     } catch (e) {
