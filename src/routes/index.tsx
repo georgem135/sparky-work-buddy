@@ -371,6 +371,7 @@ ${notes}`,
         icon={FileText}
         title="Notes Summarizer"
         description="Get the gist, key points, and action items."
+        gradient="from-amber-500 to-orange-500"
       />
       <CardContent className="space-y-5">
         <div className="space-y-2">
