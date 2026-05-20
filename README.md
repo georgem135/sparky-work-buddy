@@ -1,4 +1,4 @@
-# 🚀 AI Workplace Productivity Assistant
+#  AI Workplace Productivity Assistant
 
 A no-code AI-powered web application designed to improve workplace productivity by automating repetitive tasks such as email writing, task planning, and note summarization.
 
