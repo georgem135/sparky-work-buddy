@@ -5,11 +5,10 @@ A no-code AI-powered web application designed to improve workplace productivity 
 <h2 align="center">🎥 Demo Video</h2>
 
 <p align="center">
-  https://youtu.be/kyc_0_sDfck
-    https://img.youtube.com/vi/kyc_0_sDfck/maxresdefault.jpg
+  <a href="https://youtu.be/kyc_0_sDfck" target="_blank">
+    <img src="https://img.youtube.com/vi/kyc_0_sDfck/maxresdefault.jpg" alt="Watch Demo Video">
   </a>
 </p>
-
 
 # 📌 Project Overview
 
