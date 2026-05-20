@@ -401,10 +401,13 @@ ${notes}`,
 
 function Index() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <div className="mx-auto max-w-3xl px-4 py-12 sm:py-16">
         <header className="mb-14 text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+          <span className="inline-block rounded-full bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary shadow-sm ring-1 ring-primary/15 backdrop-blur">
+            ✨ Your friendly AI sidekick
+          </span>
+          <h1 className="mt-5 bg-gradient-to-r from-pink-500 via-violet-500 to-indigo-500 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl">
             AI Workplace Productivity Assistant
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
