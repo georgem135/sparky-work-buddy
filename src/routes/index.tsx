@@ -191,7 +191,7 @@ function EmailSection() {
 
   return (
     <Card className="shadow-sm">
-      <SectionTitle icon={Mail} title="Email Generator" description="Draft polished emails in seconds." />
+      <SectionTitle icon={Mail} title="Email Generator" description="Draft polished emails in seconds." gradient="from-pink-500 to-rose-500" />
       <CardContent className="space-y-5">
         <div className="space-y-2">
           <Label htmlFor="email-topic">Email Topic</Label>
