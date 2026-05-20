@@ -1,4 +1,4 @@
-#  AI Workplace Productivity Assistant
+# ⚡ Sparky - Your AI Workplace Productivity Assistant
 
 A no-code AI-powered web application designed to improve workplace productivity by automating repetitive tasks such as email writing, task planning, and note summarization.
 
@@ -8,7 +8,7 @@ A no-code AI-powered web application designed to improve workplace productivity 
 
 In modern workplaces, professionals spend a significant amount of time on repetitive tasks such as writing emails, planning schedules, and summarizing information. These activities reduce efficiency and limit focus on more important work.
 
-This project provides a practical AI-powered solution that helps users:
+**Sparky** provides a practical AI-powered solution that helps users:
 
 - ✅ Save time  
 - ✅ Work more efficiently  
@@ -17,11 +17,14 @@ This project provides a practical AI-powered solution that helps users:
 The application was built using **ChatGPT 5.5 (thinking)** and **Lovable (no-code platform)**.
 
 ---
-## 🎯 Project Objective
+
+# 🎯 Project Objective
 
 The goal of this project is to design and build a practical AI-powered assistant that improves workplace productivity by automating common tasks such as writing emails, planning daily activities, and summarizing information.
 
 This solution demonstrates how AI tools can be used effectively in real-world scenarios to save time and support decision-making.
+
+---
 
 # 🎯 Features
 
@@ -189,7 +192,7 @@ This solution:
 
 # 🎥 Demo
 
-👉Live Demo: https://sparky-work-buddy.lovable.app
+👉 Live Demo: https://sparky-work-buddy.lovable.app
 
 ---
 
