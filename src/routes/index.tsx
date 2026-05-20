@@ -301,6 +301,7 @@ Priorities:
         icon={ListChecks}
         title="Task Planner"
         description="Turn your to-do list into a structured day."
+        gradient="from-violet-500 to-indigo-500"
       />
       <CardContent className="space-y-5">
         <div className="space-y-2">
