@@ -144,15 +144,19 @@ function SectionTitle({
   icon: Icon,
   title,
   description,
+  gradient,
 }: {
   icon: typeof Mail;
   title: string;
   description: string;
+  gradient: string;
 }) {
   return (
     <CardHeader className="pb-4">
       <div className="flex items-center gap-3">
-        <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+        <span
+          className={`flex h-11 w-11 items-center justify-center rounded-xl text-white shadow-md bg-gradient-to-br ${gradient}`}
+        >
           <Icon className="h-5 w-5" />
         </span>
         <CardTitle className="text-2xl font-bold tracking-tight">{title}</CardTitle>
@@ -186,8 +190,8 @@ function EmailSection() {
   };
 
   return (
-    <Card className="shadow-sm">
-      <SectionTitle icon={Mail} title="Email Generator" description="Draft polished emails in seconds." />
+    <Card className="border-white/60 bg-white/80 shadow-lg shadow-primary/5 backdrop-blur-sm">
+      <SectionTitle icon={Mail} title="Email Generator" description="Draft polished emails in seconds." gradient="from-pink-500 to-rose-500" />
       <CardContent className="space-y-5">
         <div className="space-y-2">
           <Label htmlFor="email-topic">Email Topic</Label>
@@ -292,11 +296,12 @@ Priorities:
   };
 
   return (
-    <Card className="shadow-sm">
+    <Card className="border-white/60 bg-white/80 shadow-lg shadow-primary/5 backdrop-blur-sm">
       <SectionTitle
         icon={ListChecks}
         title="Task Planner"
         description="Turn your to-do list into a structured day."
+        gradient="from-violet-500 to-indigo-500"
       />
       <CardContent className="space-y-5">
         <div className="space-y-2">
@@ -361,11 +366,12 @@ ${notes}`,
   };
 
   return (
-    <Card className="shadow-sm">
+    <Card className="border-white/60 bg-white/80 shadow-lg shadow-primary/5 backdrop-blur-sm">
       <SectionTitle
         icon={FileText}
         title="Notes Summarizer"
         description="Get the gist, key points, and action items."
+        gradient="from-amber-500 to-orange-500"
       />
       <CardContent className="space-y-5">
         <div className="space-y-2">
@@ -395,10 +401,13 @@ ${notes}`,
 
 function Index() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
       <div className="mx-auto max-w-3xl px-4 py-12 sm:py-16">
         <header className="mb-14 text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+          <span className="inline-block rounded-full bg-white/70 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-primary shadow-sm ring-1 ring-primary/15 backdrop-blur">
+            ✨ Your friendly AI sidekick
+          </span>
+          <h1 className="mt-5 bg-gradient-to-r from-pink-500 via-violet-500 to-indigo-500 bg-clip-text text-4xl font-bold tracking-tight text-transparent sm:text-5xl">
             AI Workplace Productivity Assistant
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
