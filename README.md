@@ -189,7 +189,7 @@ This solution:
 
 # 🎥 Demo
 
-👉 https://sparky-work-buddy.lovable.app
+👉Live Demo: https://sparky-work-buddy.lovable.app
 
 ---
 
