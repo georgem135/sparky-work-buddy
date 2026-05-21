@@ -34,6 +34,27 @@ This solution demonstrates how AI tools can be used effectively in real-world sc
 
 # 🎯 Features
 
+## ⚡ Smart Mode (All-in-One AI Workflow)
+
+Smart Mode is the core feature of Sparky — transforming a single user input into a complete productivity solution.
+
+Instead of switching between tools, users can describe their day or workload, and Sparky will generate a full structured output in one step.
+
+---
+
+### 💡 What Smart Mode Does
+
+From a single input, Sparky automatically:
+
+- 📅 Generates a structured daily task plan  
+- ✉️ Suggests relevant emails  
+- 🧠 Summarizes key information  
+- ✅ Provides clear next steps  
+
+---
+
+### 🧠 System Workflow
+
 ## ✉️ Email Generator
 
 - Generates professional emails instantly  
