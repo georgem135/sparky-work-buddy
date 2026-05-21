@@ -2,13 +2,9 @@
 
 A no-code AI-powered web application designed to improve workplace productivity by automating repetitive tasks such as email writing, task planning, and note summarization.
 
-<h2 align="center">🎥 Demo Video</h2>
+## Demo Video
 
-<p align="center">
-  <a href="https://youtu.be/kyc_0_sDfck" target="_blank">
-    <img src="https://img.youtube.com/vi/kyc_0_sDfck/maxresdefault.jpg" alt="Watch Demo Video">
-  </a>
-</p>
+[![Watch the demo](https://img.youtube.com/vi/I-mbfq3j-uQ/maxresdefault.jpg)](https://youtu.be/I-mbfq3j-uQ)
 
 # 📌 Project Overview
 
